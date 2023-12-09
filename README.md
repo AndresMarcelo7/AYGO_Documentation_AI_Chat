@@ -16,6 +16,7 @@ In this repository, you will find organized resources used for the development o
 - [Project-AI-ElasticSearch](Project-AI-ElasticSearch): Indexer Project (Data Loading) for Elasticsearch vector database.
 - [Project-AI-Pinecone](Project-AI-Pinecone): Indexer Project (Data Loading) for Pinecone vector database.
 - [ChatApiLambda](ChatApiLambda): AWS Lambda API protected with Cognito to establish conversations with Elasticsearch and Pinecone databases.
+- [Project-AI-LoadData](Project-AI-LoadData): python script to load md files from a github organization to a s3 bucket 
 - [AYGO-Project-Chat.postman_collection.json](AYGO-Project-Chat.postman_collection.json): Postman collection for making requests to the deployed API with Api Gateway.
 
 Each directory contains a README.MD detailing the objective of each and how to implement it locally.
@@ -48,7 +49,7 @@ To replicate this project in your local environment, you need:
 ## Local Environment Testing:
 0. Clone the repository.
 1. In your AWS account, create an S3 bucket where the documentation files will be stored.
-2. Execute the search and data upload script to S3: `python3 <script_name>`
+2. Execute the search and data upload script to S3: `python3 load_data.py`
 3. Using Docker, run the preferred indexer: [Elasticsearch indexer](Project-AI-ElasticSearch%2FREADME.md) or [Pinecone indexer](Project-AI-Pinecone%2FREADME.md).
 4. Use the test script [test.py](ChatApiLambda%2Ftest.py), simulating an API Gateway event to Lambda and test the endpoint's response.
 
