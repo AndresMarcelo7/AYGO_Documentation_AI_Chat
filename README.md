@@ -13,7 +13,7 @@ Universidad Escuela Colombiana de Ingenieria Julio Garavito
 
 In this repository, you will find organized resources used for the development of the project as follows:
 - [Project Paper](AYGO_2023-3.pdf): Paper of the project, it describes business case, methodology, results and future work.
-- [Aygo project.pptx](Slides%2FAygo%20project.pptx): Project Slides, it shows the relevant terms, methodology and results of the POC.
+- [ProjectSlides.pdf](Slides%2FProjectSlides.pdf): Project Slides, it shows the relevant terms, methodology and results of the POC.
 - [Project-AI-ElasticSearch](Project-AI-ElasticSearch): Indexer Project (Data Loading) for Elasticsearch vector database.
 - [Project-AI-Pinecone](Project-AI-Pinecone): Indexer Project (Data Loading) for Pinecone vector database.
 - [ChatApiLambda](ChatApiLambda): AWS Lambda API protected with Cognito to establish conversations with Elasticsearch and Pinecone databases.
