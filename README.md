@@ -19,6 +19,7 @@ In this repository, you will find organized resources used for the development o
 - [ChatApiLambda](ChatApiLambda): AWS Lambda API protected with Cognito to establish conversations with Elasticsearch and Pinecone databases.
 - [Project-AI-LoadData](Project-AI-LoadData): python script to load md files from a github organization to a s3 bucket 
 - [AYGO-Project-Chat.postman_collection.json](AYGO-Project-Chat.postman_collection.json): Postman collection for making requests to the deployed API with Api Gateway.
+- [Video DEMO](https://youtu.be/tA2Rruxs6Bg): Here you can watch a short video, where we make calls to the API endpoints /Pinecone and /Elastic and shows how Auth works
 
 Each directory contains a README.MD detailing the objective of each and how to implement it locally.
 
@@ -103,3 +104,5 @@ The documentation of the endpoints is in the collection [AYGO-Project-Chat.postm
 ![PineconeQuery.png](img%2FPineconeQuery.png)
 - #### Unauthorized Query
 ![UnauthorizedQuery.png](img%2FUnauthorizedQuery.png)
+
+
