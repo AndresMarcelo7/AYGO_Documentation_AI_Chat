@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "38a6f847-5295-4777-9f62-82bda1f0cbf1",
+		"name": "AYGO-Project-Cat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "20759504"
+	},
+	"item": [
+		{
+			"name": "Pinecone",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"message\": \"Que es Opensearch?\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://f2dyfvcdn6.execute-api.us-east-1.amazonaws.com/v1/pinecone"
+			},
+			"response": []
+		},
+		{
+			"name": "Elastic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"message\": \"Que es Opensearch?\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://f2dyfvcdn6.execute-api.us-east-1.amazonaws.com/v1/elastic"
+			},
+			"response": []
+		},
+		{
+			"name": "Oauth2",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "REQUEST_TO_AUTHORS",
+						"password": "REQUEST_TO_AUTHORS",
+						"saveHelperData": true,
+						"showPassword": false
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "scope",
+							"value": "aygo-chat/chat",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "5rfpsicobdhvucg1fd0gojs50",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "https://aygo-ia-chat.auth.us-east-1.amazoncognito.com/oauth2/token"
+			},
+			"response": []
+		}
+	]
+}
