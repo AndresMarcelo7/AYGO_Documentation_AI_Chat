@@ -17,6 +17,7 @@ This project contains:
 - [indexer.py](src%2Findexer.py) Script in charge of downloading markdown documents and uploading them to a Pinecone vector database.
 - [app.py](src%2Fapp.py) Local API in fastapi that allows to make direct requests to the database using an OpenAI LLM (Tests)
 - [Dockerfile](Dockerfile) Containerized indexer for ease of execution
+- [run_elasticsearch.sh](run_elasticsearch.sh) Scrpt to easily run a local elasticsearch database
 
 ## Local execution
 1. Set environment variables needed for AWS connection (AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_SESSION_TOKEN), S3 Data location (S3_BUCKET_NAME,S3_DATA_PREFIX) ,OpenAI (OPENAI_API_KEY) and Elasticsearch database connection (ELASTIC_API_KEY,ELASTIC_CLOUD_ID).
